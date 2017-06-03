@@ -1,9 +1,9 @@
 # Team management
 
-- Change database settings in settings.py
+- Change database settings in settings.local.py
 
-
-- `python manage.py migrate` to setup database
+- `python manage.py migrate --settings=team_management.settings.local` to setup database in local.
+- `python manage.py runserver_plus --settings=team_management.settings.local` to get Werkzeug server running in local.
 
 
 - `/members/` endpoint
