@@ -1,0 +1,4 @@
+*.pyc
+
+# for environment settings
+*.env
